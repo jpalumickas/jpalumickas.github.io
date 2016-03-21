@@ -11,7 +11,7 @@ email: jpalumickas@gmail.com
 author: Justas Palumickas
 description: Justas Palumickas (jpalumickas) personal website
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://jpalumickas.com" # the base hostname & protocol for your site
+url: "https://jpalumickas.com" # the base hostname & protocol for your site
 
 usernames:
   facebook:    jpalumickas
