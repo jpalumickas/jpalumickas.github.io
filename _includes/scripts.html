@@ -20,3 +20,22 @@
 <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 <script src="/assets/js/main.js"></script>
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Person",
+  "name" : "{{ site.author }}",
+  "url" : "{{ site.url }}",
+  "image": "//www.gravatar.com/avatar/{{ site.gravatar_hash }}?s=800",
+  "sameAs" : [
+    "https://facebook.com/{{ site.usernames.facebook }}",
+    "https://twitter.com/{{ site.usernames.twitter }}",
+    "https://plus.google.com/+{{ site.usernames.google_plus }}",
+    "https://linkedin.com/in/{{ site.usernames.linkedin }}",
+    "https://instagram.com/{{ site.usernames.instagram }}",
+    "https://www.pinterest.com/{{ site.usernames.pinterest }}",
+    "https://soundcloud.com/{{ site.usernames.soundcloud }}"
+  ]
+}
+</script>

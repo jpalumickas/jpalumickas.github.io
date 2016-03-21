@@ -42,7 +42,7 @@ body {
 }
 
 h1,
-h3 {
+h2 {
   color: $primary-color;
   font-weight: 200;
   margin: 0;
@@ -56,6 +56,10 @@ h1 {
     color: $secondary-color;
     font-weight: 300;
   }
+}
+
+h2 {
+  font-size: 1.8em;
 }
 
 .header {

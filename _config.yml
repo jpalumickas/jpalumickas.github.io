@@ -19,10 +19,13 @@ usernames:
   google_plus: JustasPalumickas
   instagram:   jpalumickas
   linkedin:    jpalumickas
+  pinterest:   jpalumickas
+  soundcloud:  jpalumickas
   twitter:     jpalumickas
 
 google_verification_token: ZBm7rz4tEsDW8pxLimtSfy4qkxtL4gZsgjiug0u4ioY
 segment_token: O8sX0i2uOlT0sc28P5tSQ83MGM99zmZA
+gravatar_hash: 6d5c3a1354b53442fe342b2189e76a7a
 
 # Build settings
 markdown: kramdown
@@ -30,4 +33,4 @@ markdown: kramdown
 gems:
   - jekyll-sitemap
 
-exclude: ['README.md', 'Gemfile.lock', 'Gemfile']
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'bin']
