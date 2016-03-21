@@ -1,67 +1,27 @@
-<!DOCTYPE HTML>
-<html>
-  <head>
-    <title>Justas Palumickas</title>
-    <meta name="author" content="Justas Palumickas" />
-    <meta name="description" content="Justas Palumickas (jpalumickas) personal website" />
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="twitter:site" content="@jpalumickas" />
-    <meta name="twitter:creator" content="@jpalumickas" />
+---
+layout: default
+---
 
-    <meta name="google-site-verification" content="ZBm7rz4tEsDW8pxLimtSfy4qkxtL4gZsgjiug0u4ioY" />
-
-    <!--[if lte IE 8]><script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300italic,300,100italic,100,400italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="assets/css/main.css" />
-  </head>
-  <body>
-    <div class="wrapper">
-      <div class="row">
-        <div class="header col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
-          <img src="/assets/images/logo.jpeg" alt="Justas Palumickas" class="logo img-circle"/>
-          <h1>Hi, I'm <strong>Justas Palumickas</strong></h1>
-          <h3>A developer who trying to change the world</h3>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="text-center col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
-          <ul class="social-links icons center-block">
-            <li><a title="Twitter" href="https://twitter.com/jpalumickas" target="_blank" class="icon fa fa-twitter"></a></li>
-            <li><a title="Linkedin" href="https://linkedin.com/in/jpalumickas" target="_blank" class="icon fa fa-linkedin"></a></li>
-            <li><a title="Facebook" href="https://facebook.com/jpalumickas" target="_blank" class="icon fa fa-facebook"></a></li>
-            <li><a title="Google+" href="https://plus.google.com/+JustasPalumickas" target="_blank" class="icon fa fa-google-plus"></a></li>
-            <li><a title="Instagram" href="https://instagram.com/jpalumickas" target="_blank" class="icon fa fa-instagram"></a></li>
-            <li><a title="GitHub" href="https://github.com/jpalumickas" target="_blank" class="icon fa fa-github"></a></li>
-            <li><a title="Email" href="mailto:jpalumickas@gmail.com" class="icon fa fa-envelope"></a></li>
-          </ul>
-        </div>
-      </div>
+<div class="wrapper">
+  <div class="row">
+    <div class="header col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+      <img src="/assets/images/logo.jpeg" alt="Justas Palumickas" class="logo img-circle"/>
+      <h1>Hi, I'm <strong>{{ site.author }}</strong></h1>
+      <h3>A developer who trying to change the world</h3>
     </div>
+  </div>
 
-    <!-- Scripts -->
-    <script type="text/javascript">
-      !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","group","track","ready","alias","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="3.0.1";
-      analytics.load("O8sX0i2uOlT0sc28P5tSQ83MGM99zmZA");
-      analytics.page()
-      }}();
-    </script>
-    <script>
-      (function(h,o,t,j,a,r){
-        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-        h._hjSettings={hjid:67824,hjsv:5};
-        a=o.getElementsByTagName('head')[0];
-        r=o.createElement('script');r.async=1;
-        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-        a.appendChild(r);
-      })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
-    </script>
-    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    <script src="/assets/js/main.js"></script>
-  </body>
-</html>
+  <div class="row">
+    <div class="text-center col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+      <ul class="social-links icons center-block">
+        <li><a title="Twitter" href="https://twitter.com/{{ site.usernames.twitter }}" target="_blank" class="icon fa fa-twitter"></a></li>
+        <li><a title="Linkedin" href="https://linkedin.com/in/{{ site.usernames.linkedin }}" target="_blank" class="icon fa fa-linkedin"></a></li>
+        <li><a title="Facebook" href="https://facebook.com/{{ site.usernames.facebook }}" target="_blank" class="icon fa fa-facebook"></a></li>
+        <li><a title="Google+" href="https://plus.google.com/+{{ site.usernames.google_plus }}" target="_blank" class="icon fa fa-google-plus"></a></li>
+        <li><a title="Instagram" href="https://instagram.com/{{ site.usernames.instagram }}" target="_blank" class="icon fa fa-instagram"></a></li>
+        <li><a title="GitHub" href="https://github.com/{{ site.usernames.github }}" target="_blank" class="icon fa fa-github"></a></li>
+        <li><a title="Email" href="mailto:{{ site.email }}" class="icon fa fa-envelope"></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
