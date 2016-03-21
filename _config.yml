@@ -28,7 +28,4 @@ segment_token: O8sX0i2uOlT0sc28P5tSQ83MGM99zmZA
 # Build settings
 markdown: kramdown
 
-gems:
-  - jekyll-babel
-
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile']
