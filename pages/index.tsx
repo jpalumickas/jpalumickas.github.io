@@ -5,7 +5,7 @@ import { GitHubIcon } from '../components/icons/GitHub'
 import { TwitterIcon } from '../components/icons/Twitter'
 import { SocialLink } from '../components/SocialLink'
 
-export default function Page() {
+export default function HomePage() {
   return (
     <div className="w-screen h-screen flex flex-col flex-1 justify-center items-center">
       <div className="mb-4">
