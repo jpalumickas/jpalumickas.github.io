@@ -11,7 +11,7 @@ export default function Page() {
       <div className="mb-4">
         <Image
           src="https://www.gravatar.com/avatar/6d5c3a1354b53442fe342b2189e76a7a?s=200"
-          alt="{{ site.author }}"
+          alt="Justas Palumickas"
           width="100"
           height="100"
           className="rounded-full"
