@@ -17,7 +17,7 @@ export default function HomePage() {
           className="rounded-full"
         />
       </div>
-      <h1 className="text-4xl text-gray-400 font-extralight">
+      <h1 className="text-center text-4xl text-gray-400 font-extralight">
         {"Hi, I'm "}
         <span className="font-light text-gray-600">Justas Palumickas</span>
       </h1>
