@@ -1,8 +1,9 @@
 {
   "name": "@jpalumickas/website",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Justas Palumickas personal website",
   "main": "index.js",
+  "type": "module",
   "repository": "https://github.com/jpalumickas/jpalumickas.github.io",
   "author": "Justas Palumickas <jpalumickas@gmail.com>",
   "license": "MIT",
@@ -14,16 +15,16 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@types/node": "20.8.8",
-    "@types/react": "18.2.31",
-    "@types/react-dom": "18.2.14",
+    "@types/node": "22.7.9",
+    "@types/react": "18.3.12",
+    "@types/react-dom": "18.3.1",
     "classnames": "^2.3.2",
-    "eslint": "^8.52.0",
-    "eslint-config-next": "^13.5.6",
-    "next": "13.5.6",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "typescript": "5.2.2"
+    "eslint": "^9.13.0",
+    "eslint-config-next": "^15.0.1",
+    "next": "15.0.1",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "typescript": "5.6.3"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.16",

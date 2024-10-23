@@ -1,7 +1,12 @@
 import { ReactNode } from 'react'
-import { Metadata } from 'next'
+import { Metadata, Viewport } from 'next'
 
 import './globals.css'
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1.0,
+}
 
 export const metadata: Metadata = {
   metadataBase: process.env.NEXT_PUBLIC_URL
@@ -11,7 +16,6 @@ export const metadata: Metadata = {
     template: '%s - Justas Palumickas',
     default: 'Justas Palumickas',
   },
-  viewport: 'width=device-width, initial-scale=1.0',
   description:
     'Interested in open source and full stack development. Technologies I currently love and happy to work with - React, React Native, TypeScript/JavaScript, Node.js, GraphQL, Electron, Prisma and more.',
   twitter: {
