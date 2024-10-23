@@ -1,18 +1,18 @@
+import { type Metadata } from 'next'
 import Image from 'next/image'
-import Head from 'next/head'
 import { LinkedInIcon } from '../components/icons/LinkedIn'
 import { MailIcon } from '../components/icons/Mail'
 import { GitHubIcon } from '../components/icons/GitHub'
 import { TwitterIcon } from '../components/icons/Twitter'
 import { SocialLink } from '../components/SocialLink'
 
+export const metadata: Metadata = {
+  title: 'Justas Palumickas - Full Stack Development',
+}
+
 export default function HomePage() {
   return (
     <div className="w-screen h-screen flex flex-col flex-1 justify-center items-center">
-      <Head>
-        <title>Justas Palumickas - Full Stack Development</title>
-      </Head>
-
       <div className="mb-4">
         <Image
           src="https://www.gravatar.com/avatar/6d5c3a1354b53442fe342b2189e76a7a?s=200"
