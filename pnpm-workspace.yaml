@@ -1,0 +1,6 @@
+allowBuilds:
+  sharp: false
+  unrs-resolver: false
+overrides:
+  "@types/react": "$react"
+  # "@types/react-dom": "$react-dom"
